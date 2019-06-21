@@ -5,15 +5,12 @@ import java.util.List;
 
 public class Task25 {
     public static void main(String[] args) {
-        List<String> stringList = Arrays.asList("Panama", "na", "golove", "naglogo", "nigera");
-        String str = String.join(",", stringList);
-
-            //String convertStr = str.substring(1, str.length() - 1).replace("," , ",");
-
-     //   IntStream stringStream  = convertStr.chars();
-      //  stringStream.forEach(p-> System.out.println(p + " "));
-
-        //Stream<Character> characterStream = convertStr.chars().mapToObj(c->(char) c);
-       // System.out.println(characterStream.toString());
+        List<String> stringList = Arrays.asList("123", "123123", "123123", "123123123");
+        System.out.println(" div");
+        stringList.stream()
+                .forEach(string->{
+                    System.out.println(" <ul>\n  <li>"+string+"</li>\n </ul>");
+                });
+        System.out.println(" /div");
     }
 }

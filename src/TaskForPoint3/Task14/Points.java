@@ -4,6 +4,11 @@ public class Points {
     private float x;
     private float y;
 
+    public Points(float x, float y) {
+        this.x = x;
+        this.y = y;
+    }
+
     public float getX() {
         return x;
     }
