@@ -1,7 +1,5 @@
 package TaskForPoint6.Task23;
 
-import sun.misc.BASE64Decoder;
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.*;
@@ -73,11 +71,11 @@ public class Task23 {
         BufferedImage image = null;
         byte[] imageByte;
         try {
-            BASE64Decoder decoder = new BASE64Decoder();
-            imageByte = decoder.decodeBuffer(imageString);
-            ByteArrayInputStream bis = new ByteArrayInputStream(imageByte);
-            image = ImageIO.read(bis);
-            bis.close();
+           // Base64 decoder = new Base64.Encoder();
+          //  imageByte = ((Base64.Encoder) decoder).encode(imageString);
+            //ByteArrayInputStream bis = new ByteArrayInputStream(imageByte);
+            //image = ImageIO.read(bis);
+            //bis.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
