@@ -5,7 +5,6 @@ import java.lang.reflect.Modifier;
 
 public class Task8 {
     public static void main(String[] args) {
-
     }
 
     public static void FieldsList(Object object){
