@@ -1,4 +1,4 @@
-package TaskForPoint7.Task23;
+package TaskForPoint7.Task24;
 
 import java.util.concurrent.BlockingQueue;
 
